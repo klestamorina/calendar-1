@@ -1,0 +1,24 @@
+/* Ensure only one month is visible at a time */
+.calendar-month {
+    display: none;
+}
+
+#month-1 {
+    display: block; /* Show January by default */
+}
+
+/* Button Styles */
+button {
+    background-color: #ff6347; /* Tomato */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4500; /* Dark Orange */
+}
